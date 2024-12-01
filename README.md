@@ -58,6 +58,7 @@ Este projeto segue a metodologia **CRISP-DM**:
 #### **1. Pré-processamento dos Dados**
 - **Exploração**: Visualizamos a distribuição dos dados com histogramas, gráficos de dispersão e KDEs.
 - **Normalização**: As características foram padronizadas usando:
+
   $$
   \text{Z} = \frac{X - \mu}{\sigma}
   $$
