@@ -62,4 +62,4 @@ Automatizar a classificação de três variedades de trigo (**Kama, Rosa e Canad
    git clone <link-do-repositorio>
    cd <diretorio-do-projeto>
    
-Utilize Jupyter Notebook ou Google Colab para executar o arquivo .ipynb.
+Utilize Jupyter Notebook ou Google Colab para executar o arquivo [.ipynb](./src/FASE_04_CTWP_Cap11.ipynb).
