@@ -1,72 +1,65 @@
 # FIAP - Faculdade de Informática e Administração Paulista
 
 <p align="center">
-<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+<a href= "https://www.fiap.com.br/"><img src="assets/logo.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
 </p>
 
 <br>
 
-# Nome do projeto
+# Implementando algoritmos de Machine Learning com Scikit-learn
 
-## Nome do grupo
+## Grupo 54
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+- <a href="https://www.linkedin.com/in/caiorcastro/">Caio Rodrigues Castro</a> 
+- <a href="https://www.linkedin.com/in/ederson-badeca/">Ederson Luiz Badeca dos Santos</a> 
+- <a href="https://www.linkedin.com/in/digitalmanagerfelipesoares/">Felipe Soares Nascimento</a>
+- <a href="https://www.linkedin.com/in/lfhillesheim/">Lucas Ferreira Hillesheim</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
+- <a href="https://www.linkedin.com/in/lucas-gomes-moreira-15a8452a/">Lucas Gomes</a>
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
-
+- <a href="https://www.linkedin.com/in/profandregodoi/">André Godoi Chiovato</a>
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+O projeto consiste na automação da classificação de grãos de trigo utilizando algoritmos de Machine Learning. Baseado no **"Seeds Dataset"** do UCI Machine Learning Repository, aplicamos as etapas da metodologia **CRISP-DM** para explorar, processar e modelar os dados, além de otimizar hiperparâmetros dos modelos.
 
+### Objetivo
+Automatizar a classificação de três variedades de trigo (**Kama, Rosa e Canadian**) com base em características físicas, como área, perímetro e coeficiente de assimetria, utilizando algoritmos como KNN, SVM e Random Forest.
 
-## 📁 Estrutura de pastas
+### Principais Etapas:
+1. **Pré-processamento dos Dados**:
+   - Normalização: 
+\[
+     Z = \frac{X - \mu}{\sigma}
+\]
+   - Visualização com histogramas, gráficos de dispersão e KDE.
+2. **Modelagem**:
+   - Algoritmos: KNN, SVM e Random Forest.
+   - Otimização de hiperparâmetros com GridSearchCV.
+3. **Avaliação**:
+   - Métricas utilizadas: Precisão, Recall, F1-Score, Matriz de Confusão.
+   - Resultados:
+     | Modelo         | Acurácia (%) |
+     |----------------|--------------|
+     | KNN            | 96.7         |
+     | SVM            | 97.8         |
+     | Random Forest  | 98.5         |
 
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
-
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
-
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
-
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
-
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
-
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
-
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
-
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+---
 
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+### Pré-requisitos
+- Python 3.9 ou superior.
+- Bibliotecas: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`.
 
-
-## 🗃 Histórico de lançamentos
-
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
-
-## 📋 Licença
-
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
-
-
+### Passos para execução
+1. Clone o repositório:
+   ```bash
+   git clone <link-do-repositorio>
+   cd <diretorio-do-projeto>
+   ˋˋˋ
+Utilize Jupyter Notebook ou Google Colab para executar o arquivo .ipynb.
