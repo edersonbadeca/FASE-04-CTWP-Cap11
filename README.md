@@ -59,8 +59,9 @@ Este projeto segue a metodologia **CRISP-DM**:
 - **Exploração**: Visualizamos a distribuição dos dados com histogramas, gráficos de dispersão e KDEs.
 - **Normalização**: As características foram padronizadas usando:
   $$
-  Z = \frac{X - \mu}{\sigma}
+  \text{Z} = \frac{X - \mu}{\sigma}
   $$
+  
   onde 𝜇 é a média e σ é o desvio padrão.
 - **Tratamento de Valores Ausentes**: Não foram encontrados valores ausentes.
 
